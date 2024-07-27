@@ -1,0 +1,76 @@
+.body{
+    background: grey;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30rem;
+    min-height:15rem;
+    border-radius: 10px;
+    background: lightblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.inputouter{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+.input{    
+width: 80%;
+height: 2rem;
+border: 1px solid rgb(174, 174, 210);
+outline: none;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.btnout{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: palevioletred;
+    cursor: pointer;
+    margin: 20px;
+}
+.code{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+#image{
+    width: 10rem;
+    height: 10rem;    
+margin: 20px;
+display: none;
+}
+.error{
+    /* animation-name: vibrate;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 15; */
+    animation:vibrate 0.1s linear 10;
+    content: "Enter something";
+}
+@keyframes vibrate{
+    0%{transform: translateX(0);}
+    25%{transform: translateX(-10px);}
+    50%{transform: translateX(0);}
+    75%{transform: translateX(10px);}
+    100%{transform: translateX(0);}
+}
