@@ -24,3 +24,7 @@ If the input field is not empty, a QR code will be generated and displayed below
 # Here is how the application looks and works:
 User enters text in the input field:
 User clicks the "Click to generate" button and sees the generated QR code:
+
+<img width="950" alt="qr" src="https://github.com/user-attachments/assets/f954da6b-99c4-45b6-8b7e-bfec3ab37d89">
+
+
